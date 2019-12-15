@@ -117,5 +117,27 @@ html, body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skills img {
+  max-height: 160px;
+  max-width: 290px;
+}
+#react {
+height: 160px;
+  width: 290px;
+}
+#redux {
+height: 160px;
+  width: 290px;
+}
+#rails {
+height: 160px;
+  width: 160px;
+}
+
+#css {
+  margin-left: 50px;
 }

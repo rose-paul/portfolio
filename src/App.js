@@ -47,18 +47,26 @@ function App() {
       <section className="skills">
           <h2>Technologies, Languages and Skills</h2>
           <div>
-            <p>React / Redux</p>
-            <p>JavaScript</p>
-            <p>Ruby on Rails</p>
-            <p>CSS</p>
-            <p>Vanilla DOM</p>
-            <p>Mapbox API</p>
-            <p>Express.js</p>
-            <p>PostGresSQL</p>
-            <p>MongoDB</p>
+            <p><img id="react" src="https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg"/></p>
+            <p><img id="redux" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-dark.png"/></p>
+            
+            <p><img src="icons8-javascript-480.png"/></p>
+            <p><img id="rails" src="https://rubyonrails.org/images/rails-logo.svg"/></p>
+            <p><img id="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"/></p>
+            <p><img src="https://miro.medium.com/max/3332/0*ok6yuDnTx4o2PSFx.png"/></p>
+            <p><img src="http://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png"/></p>
+            <p><img src="https://miro.medium.com/max/8334/1*Ta4qktHtO--RMUpnR08mBg.jpeg"/></p>
+
           </div>
       </section>
       </div>
+
+      <details>
+        <a target="_blank" href="/icons/set/javascript">JavaScript icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="/icons/set/react">React icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>
+        <a href="https://github.com/reduxjs/redux/tree/master/logo">Redux Logo</a>
+      </details>
     </div>
   );
 }
