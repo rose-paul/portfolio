@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+ #container {
+    display: flex;
+    height: 75%;
+    width: 100%;
+ }
+
+ .carousel {
+   display: flex;
+    height: 472.5px;
+    width: 100%;
+ }
+
+.image-slide {
+  height: 100%;
+  width: 100%;
+  transition: background-image .3s ease-in-out;
+
+}
+
+.slide-arrow {
+  color: #14B6D4;
+  cursor: pointer;
+  font-size: 2rem;
+  position: fixed;
+  top: 30%;
+}
+
+.slide-arrow.right {
+  right: 1rem;
+}
+
+.slide-arrow.left {
+  left: 1rem;
+}
