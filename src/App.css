@@ -111,3 +111,11 @@ html, body {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.skills div {
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

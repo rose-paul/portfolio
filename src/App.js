@@ -43,6 +43,20 @@ function App() {
             <p>Ride</p>
           </div>
       </section>
+      <section className="skills">
+          <h2>Technologies, Languages and Skills</h2>
+          <div>
+            <p>React / Redux</p>
+            <p>JavaScript</p>
+            <p>Ruby on Rails</p>
+            <p>CSS</p>
+            <p>Vanilla DOM</p>
+            <p>Mapbox API</p>
+            <p>Express.js</p>
+            <p>PostGresSQL</p>
+            <p>MongoDB</p>
+          </div>
+      </section>
       </div>
     </div>
   );
