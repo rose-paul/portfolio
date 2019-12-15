@@ -32,6 +32,7 @@ function App() {
             While I've been on several great trips over the past few years, 
             the Kamchatka peninsula stands out the most. Snowmobiling through the most 
             remote parts of Russia in -40 degrees isn't a situation I imagined ever being in.
+            The pictures above include some of that trip, among others...
           </article>
         </header>
       </section>
