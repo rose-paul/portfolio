@@ -2,8 +2,9 @@ html, body {
   height: 100%;
   margin: 0;
   width: 100%;
+  /* background-color: #527aaf; */
 }
-
+ /* carousel */
  #container {
     display: flex;
     height: 75%;
@@ -24,10 +25,10 @@ html, body {
 }
 
 .slide-arrow {
-  color: #14B6D4;
+  color: black;
   cursor: pointer;
   font-size: 2rem;
-  position: fixed;
+  position: absolute;
   top: 30%;
 }
 
@@ -37,4 +38,68 @@ html, body {
 
 .slide-arrow.left {
   left: 1rem;
+}
+
+/* app */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
+}
+
+.about {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  font-family: serif;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.App-header {
+  display: flex;
+  margin: 10px 0px 10px 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.App-header img {
+  border-radius: 100px;
+}
+
+.App-header > div {
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.App-header h3 {
+  margin: 5px;
+  font-weight: 100;
+}
+.App-header h1 {
+  margin: 5px;
+  font-weight: 500;
+}
+
+.about article {
+  display: flex;
+  justify-content: center;
+ margin: 15px 15px 0px 15px;
+}
+
+.about article:last-child {
+  margin-bottom: 15px;
+}
+
+.about h2 {
+  margin: 15px 15px 15px 15px;
+  font-weight: 300;
+  font-family: serif;
 }

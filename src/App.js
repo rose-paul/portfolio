@@ -5,12 +5,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
         <img src="/pic.jpeg" />
-        <h1>Paul Rose</h1>
-        <h3>Software Engineer | React, Redux, Node.js, Rails</h3>
-      </header>
         <div>
+          <h1>Paul Rose</h1>
+          <h3>Software Engineer </h3>
+          <h3>React, Redux, Node.js, Rails </h3>
+        </div>
+      </header>
+      <section className="about">
+        <header>
+          <h2>About Me</h2>
           <article>
             I came into the tech realm as a developer following my previous work 
             teaching English at tech companies in Moscow. My current project is developing a game Moscow Cows 
@@ -26,7 +32,11 @@ function App() {
             the Kamchatka peninsula stands out the most. Snowmobiling through the most 
             remote parts of Russia in -40 degrees isn't a situation I imagined ever being in.
           </article>
-        </div>
+        </header>
+      </section>
+      <section className="projects">
+
+      </section>
     </div>
   );
 }
