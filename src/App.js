@@ -14,6 +14,7 @@ function App() {
           <h3>React, Redux, Node.js, Rails </h3>
         </div>
       </header>
+      <div className="content">
       <section className="about">
         <header>
           <h2>About Me</h2>
@@ -35,8 +36,14 @@ function App() {
         </header>
       </section>
       <section className="projects">
-
+          <h2>Projects</h2>
+          <div>
+            <p>Gramcrackers</p>
+            <p>Moscow Cows</p>
+            <p>Ride</p>
+          </div>
       </section>
+      </div>
     </div>
   );
 }

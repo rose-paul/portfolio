@@ -49,7 +49,7 @@ html, body {
   background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
 }
 
-.about {
+.content {
   width: 75%;
   display: flex;
   flex-direction: column;
@@ -98,8 +98,16 @@ html, body {
   margin-bottom: 15px;
 }
 
-.about h2 {
+.content h2 {
   margin: 15px 15px 15px 15px;
   font-weight: 300;
   font-family: serif;
+  border-bottom: 1px solid rgb(204, 197, 197);
+}
+
+.projects div {
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
