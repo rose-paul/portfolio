@@ -45,7 +45,7 @@ function App() {
           <div>
             <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank"><img src="gramcrackers.png"/><p>Gramcrackers</p></a>
             <a href="https://rose-paul.github.io/MoscowCows/" target="_blank"><img src="matryoshka.png" /><p>Moscow Cows</p></a>
-            <a href="http://ride-mern.herokuapp.com/#/" target="_blank"><img src="https://www.iconsdb.com/icons/preview/red/wheel-xxl.png" /><p>Ride</p></a>
+            <a href="http://ride-mern.herokuapp.com/#/" target="_blank"><img src="wheel-128.png" /><p>Ride</p></a>
           </div>
       </section>
       <section className="skills">
@@ -53,7 +53,7 @@ function App() {
           <div>
             <p><img id="react" src="https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg"/></p>
             <p><img id="redux" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-dark.png"/></p>
-            
+
             <p><img src="icons8-javascript-480.png"/></p>
             <p><img id="rails" src="https://rubyonrails.org/images/rails-logo.svg"/></p>
             <p><img id="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"/></p>
@@ -72,17 +72,19 @@ function App() {
       </div>
 
       <details>
-        <a target="_blank" href="/icons/set/javascript">JavaScript icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <div className="credits">
+          <span><a target="_blank" href="/icons/set/javascript">JavaScript icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
 
-        <a target="_blank" href="/icons/set/react">React icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+          <span><a target="_blank" href="/icons/set/react">React icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
 
-        By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>
+          <span>By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a></span>
        
-        <a href="https://github.com/reduxjs/redux/tree/master/logo">Redux Logo</a>
+        <span><a href="https://github.com/reduxjs/redux/tree/master/logo">Redux Logo</a></span>
 
-        <a target="_blank" href="/icons/set/github">GitHub icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-        <a target="_blank" href="/icons/set/linkedin">LinkedIn icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <span><a target="_blank" href="/icons/set/github">GitHub icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+        <span><a target="_blank" href="/icons/set/linkedin">LinkedIn icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+        <span><div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></span>
+        </div>
       </details>
     </div>
   );
