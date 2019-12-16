@@ -62,7 +62,7 @@ html, body {
 
 .App-header {
   display: flex;
-  margin: 10px 0px 10px 10px;
+  margin: 20px 0px 20px 10px;
   align-items: center;
   justify-content: center;
   color: white;
@@ -71,6 +71,12 @@ html, body {
 
 .App-header img {
   border-radius: 100px;
+}
+
+.header-links img {
+  border-radius: 0;
+  height: 40px;
+  width: 40px;
 }
 
 .App-header > div {
@@ -123,7 +129,7 @@ html, body {
 
 .skills img {
   max-height: 160px;
-  max-width: 290px;
+  max-width: 400px;
 }
 #react {
 height: 160px;
@@ -133,11 +139,18 @@ height: 160px;
 height: 160px;
   width: 290px;
 }
+
 #rails {
 height: 160px;
   width: 160px;
+  margin-left: 100px;
 }
 
 #css {
   margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

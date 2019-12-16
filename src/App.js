@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
 // import Banner from "./components/banner"
 function App() {
   return (
@@ -12,6 +12,10 @@ function App() {
           <h1>Paul Rose</h1>
           <h3>Software Engineer </h3>
           <h3>React, Redux, Node.js, Rails </h3>
+          <div className="header-links">
+            <a href="https://github.com/rose-paul" target="_blank"><img src="icons8-github-96.png" /></a>
+            <a href="https://www.linkedin.com/in/paul-rose-72626952/" target="_blank"><img src="icons8-linkedin-100.png" /></a>
+          </div>
         </div>
       </header>
       <div className="content">
@@ -22,7 +26,7 @@ function App() {
             I came into the tech realm as a developer following my previous work 
             teaching English at tech companies in Moscow. My current project is developing a game Moscow Cows 
             using JavaScript and HTML5 canvas. Recently, I was part of a team that developed 
-            an app called Rides, which allows motorcycle riders to map out rides and share them. 
+            an app called Ride, which allows motorcycle riders to map out rides and share them. 
             For that project we used MongoDB, Express.js, React, Node.js. Upon completing my current projects, 
             I am going expand my knowledge of React and begin learning C++.
         </article>
@@ -39,9 +43,9 @@ function App() {
       <section className="projects">
           <h2>Projects</h2>
           <div>
-            <p>Gramcrackers</p>
-            <p>Moscow Cows</p>
-            <p>Ride</p>
+            <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank"><p>Gramcrackers</p></a>
+            <a href="https://rose-paul.github.io/MoscowCows/" target="_blank"><p>Moscow Cows</p></a>
+            <a href="http://ride-mern.herokuapp.com/#/" target="_blank"><p>Ride</p></a>
           </div>
       </section>
       <section className="skills">
@@ -59,13 +63,25 @@ function App() {
 
           </div>
       </section>
+      <section className="contact">
+        {/* <h2>Contact Me</h2> */}
+        <div>
+
+        </div>
+      </section>
       </div>
 
       <details>
         <a target="_blank" href="/icons/set/javascript">JavaScript icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
         <a target="_blank" href="/icons/set/react">React icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
         By Rudloff - <a class="external free" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg">https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_badges.svg</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=49121103">Link</a>
+       
         <a href="https://github.com/reduxjs/redux/tree/master/logo">Redux Logo</a>
+
+        <a target="_blank" href="/icons/set/github">GitHub icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="/icons/set/linkedin">LinkedIn icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       </details>
     </div>
   );
