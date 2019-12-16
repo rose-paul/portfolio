@@ -43,9 +43,9 @@ function App() {
       <section className="projects">
           <h2>Projects</h2>
           <div>
-            <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank"><p>Gramcrackers</p></a>
-            <a href="https://rose-paul.github.io/MoscowCows/" target="_blank"><p>Moscow Cows</p></a>
-            <a href="http://ride-mern.herokuapp.com/#/" target="_blank"><p>Ride</p></a>
+            <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank"><img src="gramcrackers.png"/><p>Gramcrackers</p></a>
+            <a href="https://rose-paul.github.io/MoscowCows/" target="_blank"><img src="matryoshka.png" /><p>Moscow Cows</p></a>
+            <a href="http://ride-mern.herokuapp.com/#/" target="_blank"><img src="https://www.iconsdb.com/icons/preview/red/wheel-xxl.png" /><p>Ride</p></a>
           </div>
       </section>
       <section className="skills">
@@ -82,6 +82,7 @@ function App() {
 
         <a target="_blank" href="/icons/set/github">GitHub icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
         <a target="_blank" href="/icons/set/linkedin">LinkedIn icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </details>
     </div>
   );
