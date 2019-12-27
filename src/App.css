@@ -73,6 +73,11 @@ html, body {
   border-radius: 100px;
 }
 
+.header-links {
+  display: flex;
+    align-items: center;
+}
+
 .header-links img {
   border-radius: 0;
   height: 40px;

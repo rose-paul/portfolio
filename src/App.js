@@ -26,6 +26,7 @@ function App() {
             >
               <img src="icons8-linkedin-100.png" />
             </a>
+            <button onClick={onClick}>Email me!</button>
           </div>
         </div>
       </header>
@@ -120,10 +121,7 @@ function App() {
             </p>
           </div>
         </section>
-        <section className="contact">
-          <h2>Contact Me</h2>
-          <button onClick={onClick}>EmailButton</button>
-        </section>
+        <section className="contact">{/* <h2>Contact Me</h2> */}</section>
       </div>
 
       <details>
