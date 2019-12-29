@@ -1,38 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './header';
 
 // import Banner from "./components/banner"
 function App() {
 
-  const onClick = () => {
-        window.location.href = `mailto:prose0021@gmail.com`;
-    }
-
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="pic.jpeg" />
-        <div>
-          <h1>Paul Rose</h1>
-          <h3>Software Engineer </h3>
-          <h3>React, Redux, Node.js, Rails </h3>
-          <div className="header-links">
-            <a href="https://github.com/rose-paul" target="_blank">
-              <img src="icons8-github-96.png" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/paul-rose-72626952/"
-              target="_blank"
-            >
-              <img src="icons8-linkedin-100.png" />
-            </a>
-            <img src="icons8-email-52.png" onClick={onClick}></img>
-          </div>
-        </div>
-      </header>
+      <Header />
       <div className="content">
         <section className="about">
-          <header>
             <h2>About Me</h2>
             <article>
               I came into the tech realm as a developer following my previous
@@ -57,7 +34,6 @@ function App() {
               degrees isn't a situation I imagined ever being in. The pictures
               above include some of that trip, among others.
             </article>
-          </header>
         </section>
         <section className="projects">
           <h2>Projects</h2>
