@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+import cx from "classnames";
 
 const Header = () => {
+
+    const [showHeader] = useState(true);
+
     const onClick = () => {
         window.location.href = `mailto:prose0021@gmail.com`;
     }
 
   return (  
-  <header className="App-header">
+
+    <CSSTransition
+              in={showHeader}
+              timeout={5000}
+              classNames="header-transition"
+              unmountOnExit
+              appear
+          >
+          <header className={cx("App-header", "header-transition--active")}>
         <img src="pic.jpeg" />
         <div>
             <h1>Paul Rose</h1>
@@ -25,7 +38,8 @@ const Header = () => {
                 <img src="icons8-email-52.png" onClick={onClick}></img>
             </div>
         </div>
-    </header>
+        </header>
+    </CSSTransition>
     )}
 
 

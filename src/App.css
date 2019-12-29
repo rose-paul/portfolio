@@ -69,6 +69,16 @@ html, body {
   font-family: sans-serif;
 }
 
+.header-transition-enter, .header-transition-appear {
+  height: 200px;
+  width: 483.844px;
+  background-color: black;
+}
+
+.header-transition-enter-active, .header-transition-appear-active {
+
+}
+
 .App-header img {
   border-radius: 100px;
 }
