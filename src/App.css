@@ -84,6 +84,13 @@ html, body {
   width: 40px;
 }
 
+.header-links > img:last-child {
+      height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
 .App-header > div {
   display: flex;
   margin-left: 15px;

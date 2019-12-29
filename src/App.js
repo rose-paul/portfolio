@@ -26,7 +26,7 @@ function App() {
             >
               <img src="icons8-linkedin-100.png" />
             </a>
-            <button onClick={onClick}>Email me!</button>
+            <img src="icons8-email-52.png" onClick={onClick}></img>
           </div>
         </div>
       </header>
@@ -206,6 +206,8 @@ function App() {
               </a>
             </div>
           </span>
+
+          <a target="_blank" href="https://icons8.com/icons/set/email">Email icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
         </div>
       </details>
     </div>
