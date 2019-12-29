@@ -60,6 +60,15 @@ html, body {
   border-radius: 10px;
 }
 
+
+
+.header-transition-enter, .header-transition-appear {
+  content: none;
+  height: 200px;
+  width: 483.844px;
+  background-color: black;
+}
+
 .App-header {
   display: flex;
   margin: 20px 0px 20px 10px;
@@ -67,16 +76,6 @@ html, body {
   justify-content: center;
   color: white;
   font-family: sans-serif;
-}
-
-.header-transition-enter, .header-transition-appear {
-  height: 200px;
-  width: 483.844px;
-  background-color: black;
-}
-
-.header-transition-enter-active, .header-transition-appear-active {
-
 }
 
 .App-header img {

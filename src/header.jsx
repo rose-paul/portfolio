@@ -14,9 +14,8 @@ const Header = () => {
 
     <CSSTransition
               in={showHeader}
-              timeout={5000}
+              timeout={1000}
               classNames="header-transition"
-              unmountOnExit
               appear
           >
           <header className={cx("App-header", "header-transition--active")}>
