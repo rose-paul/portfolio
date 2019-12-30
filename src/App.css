@@ -7,13 +7,13 @@ html, body {
  /* carousel */
  #container {
     display: flex;
-    height: 75%;
+    height: 63%;
     width: 100%;
  }
 
  .carousel {
    display: flex;
-    height: 472.5px;
+    /* height: 472.5px; */
     width: 100%;
  }
 
