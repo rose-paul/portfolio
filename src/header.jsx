@@ -1,20 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import cx from "classnames";
 
 const Header = () => {
 
-    const [showHeader] = useState(true);
+    const [showHeader, setHeader] = useState(false);
+
+    useEffect( () => {
+        setTimeout(
+            setHeader(true), 2000
+        )
+    }, [])
 
     const onClick = () => {
         window.location.href = `mailto:prose0021@gmail.com`;
     }
-
+    console.log(showHeader)
   return (  
 
     <CSSTransition
               in={showHeader}
-              timeout={1000}
+              timeout={4000}
               classNames="header-transition"
               appear
           >
