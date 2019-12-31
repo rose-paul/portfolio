@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ImageSlide from './image_slide'
 import Arrow from './arrow'
+import { CSSTransition } from "react-transition-group";
+import cx from "classnames";
 
 const Carousel = () => {
     const imgUrls = [
@@ -10,6 +12,11 @@ const Carousel = () => {
         "https://live.staticflickr.com/65535/49219605933_6b57a3b667_b.jpg",
         ];
     const [currentImgIdx, setIdx] = useState(0)
+    const [showCarousel, setCarousel] = useState(false)
+
+     useEffect(() => {
+       setTimeout(setCarousel(true), 2000);
+     }, []);
 
     const previousSlide = () => {
         const last = imgUrls.length - 1;
@@ -28,19 +35,30 @@ const Carousel = () => {
     }
 
         return (
-            <div className="carousel">
-                    <Arrow
-                        direction="left"
-                        clickFunction={previousSlide}
-                        glyph="&#9664;" />
+          <div className="container">
+            <CSSTransition
+              in={showCarousel}
+              timeout={4000}
+              classNames="header-transition"
+              appear
+            >
+              <div className="carousel">
+                <Arrow
+                  direction="left"
+                  clickFunction={previousSlide}
+                  glyph="&#9664;"
+                />
 
-                    <ImageSlide url={imgUrls[currentImgIdx]} />
+                <ImageSlide url={imgUrls[currentImgIdx]} />
 
-                    <Arrow
-                        direction="right"
-                        clickFunction={nextSlide}
-                        glyph="&#9654;" />
-            </div>
+                <Arrow
+                  direction="right"
+                  clickFunction={nextSlide}
+                  glyph="&#9654;"
+                />
+              </div>
+            </CSSTransition>
+          </div>
         );
 }
 
