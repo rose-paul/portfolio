@@ -152,6 +152,7 @@ html, body {
 .projects img {
   height: 100px;
   width: 100px;
+  transition: transform 0.5s;
 }
 
 .skills div {
