@@ -13,6 +13,13 @@ const Projects = () => {
 
     const mouseLeaveAnim = (e) => {
         e.target.style = "";
+        e.target.className = ""
+        console.log(e.target)
+    }
+
+    const rotateWheel = (e) => {
+        e.target.className = "rotate"
+        console.log(e.target)
     }
 
     return (
@@ -38,7 +45,7 @@ const Projects = () => {
           <a href="http://ride-mern.herokuapp.com/#/" target="_blank">
             <img
               src="wheel-128.png"
-              onMouseEnter={mouseEnterAnim}
+              onMouseEnter={rotateWheel}
               onMouseLeave={mouseLeaveAnim}
             />
             <p>Ride</p>
