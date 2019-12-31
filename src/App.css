@@ -12,7 +12,7 @@ html, body {
 
  .carousel {
    display: flex;
-    height: 472.5px;
+    height: 63vh;
     width: 100%;
  }
 
