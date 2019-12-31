@@ -5,7 +5,7 @@ import App from './App';
 import Carousel from './carousel'
 
 document.addEventListener("DOMContentLoaded", () => {
-    ReactDOM.render(<Carousel />, document.getElementById('container'))
+    // ReactDOM.render(<Carousel />, document.getElementById('container'))
     ReactDOM.render(<App />, document.getElementById('root'));
 })
 

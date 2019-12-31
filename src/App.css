@@ -1,11 +1,11 @@
 html, body {
   height: 100%;
-  margin: 0;
   width: 100%;
-  /* background-color: #527aaf; */
+  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
 }
+
  /* carousel */
- #container {
+ .container {
     display: flex;
     height: 63%;
     width: 100%;
@@ -21,7 +21,6 @@ html, body {
   height: 100%;
   width: 100%;
   transition: background-image .3s ease-in-out;
-
 }
 
 .slide-arrow {
@@ -46,7 +45,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
+  /* background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160)); */
 }
 
 .content {
@@ -63,6 +62,7 @@ html, body {
 .header-transition-enter {
   opacity: 0;
   transform: scale(0.9);
+
 }
 .header-transition-enter-active {
   opacity: 1;
