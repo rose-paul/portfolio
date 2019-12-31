@@ -1,7 +1,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
 }
 
  /* carousel */
@@ -13,7 +12,7 @@ html, body {
 
  .carousel {
    display: flex;
-    /* height: 472.5px; */
+    height: 472.5px;
     width: 100%;
  }
 
@@ -45,7 +44,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160)); */
+  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
 }
 
 .content {
