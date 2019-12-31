@@ -28,24 +28,27 @@ const Projects = () => {
       <section className="projects">
         <h2>Projects</h2>
         <div>
-          <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank">
+          <a href="https://gramcrackers.herokuapp.com/#/login" target="_blank" rel="noopener noreferrer">
             <img
+                alt=""
               src="gramcrackers.png"
               onMouseEnter={mouseEnterAnim}
               onMouseLeave={mouseLeaveAnim}
-            />
+            /> 
             <p>Gramcrackers</p>
           </a>
-          <a href="https://rose-paul.github.io/MoscowCows/" target="_blank">
+          <a href="https://rose-paul.github.io/MoscowCows/" target="_blank" rel="noopener noreferrer">
             <img
+                alt=""
               src="matryoshka.png"
               onMouseEnter={shakeDoll}
               onMouseLeave={mouseLeaveAnim}
             />
             <p>Moscow Cows</p>
           </a>
-          <a href="http://ride-mern.herokuapp.com/#/" target="_blank">
+          <a href="http://ride-mern.herokuapp.com/#/" target="_blank" rel="noopener noreferrer">
             <img
+                alt=""
               src="wheel-128.png"
               onMouseEnter={rotateWheel}
               onMouseLeave={mouseLeaveAnim}

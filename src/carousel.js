@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import ImageSlide from './image_slide'
 import Arrow from './arrow'
 import { CSSTransition } from "react-transition-group";
-import cx from "classnames";
 
 const Carousel = () => {
     const imgUrls = [
