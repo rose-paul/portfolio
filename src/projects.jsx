@@ -14,12 +14,14 @@ const Projects = () => {
     const mouseLeaveAnim = (e) => {
         e.target.style = "";
         e.target.className = ""
-        console.log(e.target)
     }
 
     const rotateWheel = (e) => {
         e.target.className = "rotate"
-        console.log(e.target)
+    }
+
+    const shakeDoll = (e) => {
+        e.target.className = "shake"
     }
 
     return (
@@ -37,7 +39,7 @@ const Projects = () => {
           <a href="https://rose-paul.github.io/MoscowCows/" target="_blank">
             <img
               src="matryoshka.png"
-              onMouseEnter={mouseEnterAnim}
+              onMouseEnter={shakeDoll}
               onMouseLeave={mouseLeaveAnim}
             />
             <p>Moscow Cows</p>
