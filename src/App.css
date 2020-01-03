@@ -224,7 +224,20 @@ a {
   color: black;
 }
 
+details {
+      width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    font-family: serif;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .credits {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
