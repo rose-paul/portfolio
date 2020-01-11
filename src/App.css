@@ -40,8 +40,8 @@ html, body {
 
 /* app */
 .App {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,6 +52,7 @@ html, body {
 .navbar {
     display: flex;
     width: 100vw;
+    height: 10vh;
     font-weight: bold;
     justify-content: space-evenly;
     border-bottom: 1px solid #212122;
@@ -87,13 +88,13 @@ html, body {
 
 .App-header {
   display: flex;
-  margin: 20px 0px 20px 10px;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: sans-serif;
-  margin-top: 15%;
-    margin-bottom: 14%;
+    margin: 10px 0px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 .App-header img {
@@ -138,14 +139,22 @@ html, body {
 .about article {
   display: flex;
     justify-content: center;
-    margin: 0px 15px 10px 0px;
     width: 40vw;
-    height: 36vh;
+  margin-bottom: 5%;
     color: white;
 }
 
-.about article:last-child {
-  margin-bottom: 25px;
+.about p {
+  display: flex;
+    justify-content: center;
+    width: 40vw;
+  margin-bottom: 5%;
+    color: white;
+}
+
+.flex-wrapper img {
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 .about h2 {
@@ -155,7 +164,7 @@ html, body {
   border-bottom: 1px solid rgb(204, 197, 197);
 }
 .projects {
-  height: 100vh;
+  height: 75vh;
   width: 60vw;
 }
 .projects div {
@@ -285,5 +294,13 @@ details {
 }
 
 #copyright {
+  margin-top: 50px;
+  height: 10vh;
   color: white;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+      margin-top: 5vh;
 }

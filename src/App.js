@@ -12,20 +12,20 @@ function App() {
 
   return (
     <HashRouter>
-    <div className="App">
-      {/* <Carousel /> */}
-      <NavBar/>
-      {/* <div className="content"> */}
-      <Switch>
-        <Route exact path='/' component={Header}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/projects' component={Projects} />
-        <Route exact path='/skills' component={Skills} />
-      </Switch>
-      {/* </div> */}
-      {/* <Credits /> */}
+      <div className="App">
+        {/* <Carousel /> */}
+        <NavBar />
+        {/* <div className="content"> */}
+        <Switch>
+          <Route exact path="/" component={Header} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
+          {/* <Route exact path="/skills" component={Skills} /> */}
+        </Switch>
+        {/* </div> */}
+        {/* <Credits /> */}
       <p id="copyright">© 2019 Paul Rose </p>
-    </div>
+      </div>
     </HashRouter>
   );
 }

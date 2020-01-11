@@ -27,9 +27,9 @@ const NavBar = () => {
         <Link to="/projects">
           Projects
         </Link>
-        <Link to="/skills">
+        {/* <Link to="/skills">
           Skills
-        </Link>
+        </Link> */}
       </header>
     </CSSTransition>
   );
