@@ -93,7 +93,7 @@ html, body {
   color: white;
   font-family: sans-serif;
   margin-top: 15%;
-    margin-bottom: 11%;
+    margin-bottom: 14%;
 }
 
 .App-header img {
@@ -138,18 +138,17 @@ html, body {
 .about article {
   display: flex;
     justify-content: center;
-    margin: 30px 15px 0px 15px;
+    margin: 0px 15px 10px 0px;
     width: 40vw;
     height: 36vh;
     color: white;
 }
 
 .about article:last-child {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .about h2 {
-  margin: 15px 15px 15px 15px;
   font-weight: 300;
   font-family: serif;
   color: white;
