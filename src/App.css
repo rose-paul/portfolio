@@ -44,7 +44,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #222429, rgb(42, 42, 44));
+  background-image: linear-gradient(to bottom right, #222429, rgb(63, 63, 63));
 }
 
 .content {
@@ -77,6 +77,8 @@ html, body {
   justify-content: center;
   color: white;
   font-family: sans-serif;
+  margin-top: 15%;
+    margin-bottom: 25%;
 }
 
 .App-header img {
