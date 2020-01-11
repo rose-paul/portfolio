@@ -13,7 +13,7 @@ const Header = () => {
     }, [])
 
     const onClick = () => {
-        window.location.href = `mailto:prose0021@gmail.com`;
+        window.location.href = "mailto:prose0021@gmail.com?subject=Hey%20Paul!&body="
     }
 
   return (  

@@ -44,7 +44,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, rgb(129, 144, 184), rgb(60, 67, 160));
+  background-image: linear-gradient(to bottom right, #222429, rgb(42, 42, 44));
 }
 
 .content {
