@@ -5,8 +5,8 @@ import { CSSTransition } from "react-transition-group";
 
 const Carousel = () => {
     const imgUrls = [
+      "https://live.staticflickr.com/65535/49220313732_6c98051f80_b.jpg",
         "https://live.staticflickr.com/65535/48539386741_704564729e_b.jpg",
-        "https://live.staticflickr.com/65535/49220313732_6c98051f80_b.jpg",
         "https://live.staticflickr.com/65535/49219621673_97e00f33de_b.jpg",
         "https://live.staticflickr.com/65535/49219605933_6b57a3b667_b.jpg",
         ];

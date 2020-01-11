@@ -6,13 +6,14 @@ import Projects from './projects';
 import Skills from './skills';
 import Credits from './credits';
 import Carousel from './carousel';
+import {Route, Switch, Redirect} from 'react-router-dom';
 
 function App() {
 
   return (
 
     <div className="App">
-      <Carousel />
+      {/* <Carousel /> */}
       <Header />
       <div className="content">
         <About />

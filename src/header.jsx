@@ -32,15 +32,15 @@ const Header = () => {
             <h3>React, Redux, Node.js, Rails </h3>
             <div className="header-links">
                 <a href="https://github.com/rose-paul" target="_blank" rel="noopener noreferrer">
-                    <img alt="" src="icons8-github-96.png" />
+                    <img alt="" src="001-github.png" />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/paul-rose-72626952/"
                     target="_blank" rel="noopener noreferrer"
                 >
-                    <img alt="" src="icons8-linkedin-100.png" />
+                    <img alt="" src="002-linkedin.png" />
                 </a>
-                <img alt="" src="icons8-email-52.png" onClick={onClick}></img>
+                <img alt="" src="003-email.png" onClick={onClick}></img>
             </div>
         </div>
         </header>
