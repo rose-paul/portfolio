@@ -1,7 +1,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-image: ;
 }
 
  /* carousel */
@@ -41,6 +40,8 @@ html, body {
 
 /* app */
 .App {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,11 +51,15 @@ html, body {
 
 .navbar {
     display: flex;
-    color: white;
     width: 100vw;
     font-weight: bold;
     justify-content: space-evenly;
     border-bottom: 1px solid #212122;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 0px 10px 0px;
 }
 
 .content {
@@ -132,27 +137,33 @@ html, body {
 
 .about article {
   display: flex;
-  justify-content: center;
- margin: 15px 15px 0px 15px;
+    justify-content: center;
+    margin: 30px 15px 0px 15px;
+    width: 40vw;
+    height: 36vh;
+    color: white;
 }
 
 .about article:last-child {
   margin-bottom: 15px;
 }
 
-.content h2 {
+.about h2 {
   margin: 15px 15px 15px 15px;
   font-weight: 300;
   font-family: serif;
+  color: white;
   border-bottom: 1px solid rgb(204, 197, 197);
 }
-
+.projects {
+  height: 100vh;
+  width: 60vw;
+}
 .projects div {
   margin: 15px 15px 15px 15px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  
 }
 
 .projects a {
@@ -161,6 +172,16 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    width: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.projects h2 {
+  color:white;
+  border-bottom: 1px solid rgb(204, 197, 197);
 }
 
 .projects img {

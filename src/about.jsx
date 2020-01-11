@@ -16,7 +16,6 @@ const About = () => {
             expanding my knowledge about them. Below you can find my projects
             and a list of the main technologies and languages I employ.
             </article>
-        <br />
         <article>
             Outside of programming, I love to travel. From 2015-2019 I lived
             in Moscow, Russia. I was fortunate to explore a lot of places
