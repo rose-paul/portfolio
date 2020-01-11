@@ -222,6 +222,14 @@ html, body {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.skills {
+  width: 80vw;
+}
+
+.skills h2 {
+  color: white;
+  border-bottom: 1px solid rgb(204, 197, 197);
+}
 .skills div {
   margin: 15px 15px 15px 15px;
   display: flex;
