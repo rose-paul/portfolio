@@ -19,7 +19,8 @@ function App() {
         <Projects />
         <Skills />
       </div>
-      <Credits />
+      {/* <Credits /> */}
+      <p id="copyright">© 2019 Paul Rose </p>
     </div>
   );
 }

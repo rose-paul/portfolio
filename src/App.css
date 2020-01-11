@@ -241,3 +241,7 @@ details {
   flex-direction: column;
   justify-content: center;
 }
+
+#copyright {
+  color: white;
+}
