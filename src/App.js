@@ -6,23 +6,27 @@ import Projects from './projects';
 import Skills from './skills';
 import Credits from './credits';
 import Carousel from './carousel';
-import {Route, Switch, Redirect} from 'react-router-dom';
-
+import {HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import NavBar from './navbar';
 function App() {
 
   return (
-
+    <HashRouter>
     <div className="App">
       {/* <Carousel /> */}
-      <Header />
-      <div className="content">
-        <About />
-        <Projects />
-        <Skills />
-      </div>
+      <NavBar/>
+      {/* <div className="content"> */}
+      <Switch>
+        <Route exact path='/' component={Header}/>
+        <Route exact path='/about' component={About}/>
+        <Route exact path='/projects' component={Projects} />
+        <Route exact path='/skills' component={Skills} />
+      </Switch>
+      {/* </div> */}
       {/* <Credits /> */}
       <p id="copyright">© 2019 Paul Rose </p>
     </div>
+    </HashRouter>
   );
 }
 
