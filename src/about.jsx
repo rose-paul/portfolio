@@ -31,7 +31,7 @@ const About = () => {
            Outside of programming, I love to travel. I was fortunate to explore
            a lot of places during my time in Moscow, both in the country and the
            surrounding region. To the left is from the Krasnodar region on top
-           of Indyuk, meaning "Turkey".
+           of the mountain Indyuk.
          </article>
        </section>
      </div>
