@@ -309,6 +309,7 @@ details {
 #single-project {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #single-project div:last-child {

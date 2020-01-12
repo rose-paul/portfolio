@@ -49,6 +49,11 @@ const Projects = () => {
                 Gramcrackers, an Instagram clone, is a social media app that
                 allows users to post photos and interact with other users
                 through following, comments and likes.
+                <ul>
+                  <li>Frontend: React / Redux</li>
+                  <li>Backend: Ruby on Rails</li>
+                  <li>DB: PostgreSQL, AWS S3</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -72,6 +77,9 @@ const Projects = () => {
                 canvas tag, players must successfully collect full sets of
                 Russian nesting dolls while avoiding being trampled by a herd of
                 cows.
+                <ul>
+                  <li>Frontend: JavaScript, HTML5 Canvas</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -92,11 +100,16 @@ const Projects = () => {
             <div>
               <p>
                 Ride is a web application targeting the motorcycling enthusiast
-                community. It allows a
-                user to record a ride on a map and peruse all saved rides. Use the "post" a ride feature to share
-                it or stop by Ride and find your next adventure. Leave the community your
-                nugget of wisdom in a ride review. Our aim is to enhance the
-                enjoyment of two wheeled riding everywhere.
+                community. It allows a user to record a ride on a map and peruse
+                all saved rides. Use the "post" a ride feature to share it or
+                stop by Ride and find your next adventure. Leave the community
+                your nugget of wisdom in a ride review. Our aim is to enhance
+                the enjoyment of two wheeled riding everywhere.
+                <ul>
+                  <li>Frontend: React / Redux, Mapbox</li>
+                  <li>Backend: Express.js</li>
+                  <li>DB: MongoDB</li>
+                </ul>
               </p>
             </div>
           </div>
