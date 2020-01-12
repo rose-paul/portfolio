@@ -164,14 +164,15 @@ html, body {
   border-bottom: 1px solid rgb(204, 197, 197);
 }
 .projects {
-  height: 75vh;
+  height: 77vh;
   width: 60vw;
 }
 .projects div {
-  margin: 15px 15px 15px 15px;
   display: flex;
   flex-direction: column;
-  
+    justify-content: flex-start;
+    color: white;
+    font-family: sans-serif;
 }
 
 .projects a {
@@ -303,4 +304,13 @@ details {
   display: flex;
   align-items: center;
       margin-top: 5vh;
+}
+
+#single-project {
+  display: flex;
+  flex-direction: row;
+}
+
+#single-project div:last-child {
+      margin-left: 20%;
 }
