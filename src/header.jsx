@@ -43,6 +43,8 @@ const Header = () => {
             <a href="mailto:prose0021@gmail.com">
               <img alt="" src="003-email.png" />
             </a>
+            
+            <a href="PaulRoseResume.pdf" download="PaulRoseResume"><img src="cv.png" alt=""/></a>
           </div>
         </div>
       </header>
