@@ -40,11 +40,27 @@ html, body {
 
 /* app */
 .App {
+  /* height: 100vh;
+  width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #222429, rgb(42, 42, 44));
+  background-image: linear-gradient(to bottom right, #222429, rgb(63, 63, 63));
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    font-weight: bold;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #212122;
+}
+
+.navbar a {
+  color: white;
+  padding: 20px 0px 20px 0px;
 }
 
 .content {
@@ -72,11 +88,13 @@ html, body {
 
 .App-header {
   display: flex;
-  margin: 20px 0px 20px 10px;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: sans-serif;
+    margin: 10px 0px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 .App-header img {
@@ -120,27 +138,41 @@ html, body {
 
 .about article {
   display: flex;
-  justify-content: center;
- margin: 15px 15px 0px 15px;
+    justify-content: center;
+    width: 40vw;
+  margin-bottom: 5%;
+    color: white;
 }
 
-.about article:last-child {
-  margin-bottom: 15px;
+.about p {
+  display: flex;
+    justify-content: center;
+    width: 40vw;
+  margin-bottom: 5%;
+    color: white;
 }
 
-.content h2 {
-  margin: 15px 15px 15px 15px;
+.flex-wrapper img {
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.about h2 {
   font-weight: 300;
   font-family: serif;
+  color: white;
   border-bottom: 1px solid rgb(204, 197, 197);
 }
-
+.projects {
+  /* height: 77vh; */
+  width: 60vw;
+}
 .projects div {
-  margin: 15px 15px 15px 15px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-family: sans-serif;
 }
 
 .projects a {
@@ -149,6 +181,16 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    width: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.projects h2 {
+  color:white;
+  border-bottom: 1px solid rgb(204, 197, 197);
 }
 
 .projects img {
@@ -189,6 +231,14 @@ html, body {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.skills {
+  width: 80vw;
+}
+
+.skills h2 {
+  color: white;
+  border-bottom: 1px solid rgb(204, 197, 197);
+}
 .skills div {
   margin: 15px 15px 15px 15px;
   display: flex;
@@ -245,5 +295,23 @@ details {
 }
 
 #copyright {
+  margin-top: 50px;
+  height: 10vh;
   color: white;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+      margin-top: 5vh;
+}
+
+#single-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#single-project div:last-child {
+      margin-left: 20%;
 }
