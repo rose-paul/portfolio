@@ -4,7 +4,7 @@ const About = () => {
    return (
      <div className="flex-wrapper">
        <img
-         src="https://live.staticflickr.com/65535/49220090451_5c69c3d85f.jpg"
+         src="about.jpg"
          alt=""
        />
        <section className="about">
