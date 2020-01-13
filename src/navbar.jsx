@@ -11,12 +11,12 @@ const NavBar = () => {
   }, []);
 
   return (
-    <CSSTransition
-      in={showHeader}
-      timeout={4000}
-      classNames="header-transition"
-      appear
-    >
+    // <CSSTransition
+    //   in={showHeader}
+    //   timeout={4000}
+    //   classNames="header-transition"
+    //   appear
+    // >
       <header className={cx("navbar", "header-transition--active")}>
         <Link to="/">
           Home
@@ -31,7 +31,7 @@ const NavBar = () => {
           Skills
         </Link> */}
       </header>
-    </CSSTransition>
+    // </CSSTransition>
   );
 };
 

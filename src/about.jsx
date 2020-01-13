@@ -10,7 +10,7 @@ const About = () => {
        <section className="about">
          <h2>About Me</h2>
          <p>
-           Skills: React, Redux, Javascript, Ruby on Rails, Mapbox, SQL,
+           Skills: React, Redux, JavaScript, Ruby on Rails, Mapbox, SQL,
            PostgresSQL, MongoDB
          </p>
          <article>
@@ -20,10 +20,10 @@ const About = () => {
            enjoy all aspects.
          </article>
          <article>
-           My core interest lies in frontend engineering using React, Redux and
-           Javascript. My enthusiasm for this aspect is driven by the
+           My core interest lies in frontend engineering using React, Redux and all else
+           JavaScript. My enthusiasm for this aspect is driven by the
            practicality of mapping the backend to a usable frontend and the
-           challenge of optimizing this connection. Javascript and all its
+           challenge of optimizing this connection. JavaScript and all its
            libraries are great means to this end, and I am always expanding my
            knowledge about them.
          </article>
