@@ -152,9 +152,22 @@ html, body {
     color: white;
 }
 
-.flex-wrapper img {
-  margin-right: 5%;
+#transform  {
+  transition: all 3s;
   margin-top: 1%;
+}
+
+.about  {
+  margin-left: 5%;
+  transition: all 2s;
+}
+
+#hidden {
+  transform: translateX(-100vw);
+}
+
+.hidden2 {
+  transform: translateX(-100vw);
 }
 
 .about h2 {
