@@ -1,17 +1,26 @@
 import React, { useState, useEffect }from 'react';
 import { CSSTransition } from 'react-transition-group';
 import cx from "classnames";
+import { clean } from 'gh-pages';
 
 const About = () => {
 
   const [phaseIn, setPhase] = useState("hidden")
   const [phaseIn2, setPhase2] = useState("hidden2")
 
+  // const cleanup = () => {
+  //   setPhase("hidden")
+  // }
+
   useEffect(() => {
-    setTimeout(
-      setPhase("transform"), 2000,
-      setPhase2("about"), 500
-    )
+      setTimeout(
+        setPhase("transform"), 2000,
+        setPhase2("about"), 500
+      )
+
+      // return () => {
+      //   cleanup()
+      // }
   }, [])
   
    return (
