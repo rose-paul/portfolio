@@ -153,21 +153,28 @@ html, body {
 }
 
 #transform  {
-  transition: all 3s;
-  margin-top: 1%;
+  -webkit-animation: swoopin 3s;
+  -moz-animation:    swoopin 3s; 
+  -o-animation:      swoopin 3s; 
+  animation:         swoopin 3s;
 }
 
 .about  {
+  -webkit-animation: swoopin 1s;
+  -moz-animation:    swoopin 1s; 
+  -o-animation:      swoopin 1s; 
+  animation:         swoopin 1s;
   margin-left: 5%;
-  transition: all 2s;
 }
 
-#hidden {
-  transform: translateX(-100vw);
-}
 
-.hidden2 {
-  transform: translateX(-100vw);
+@keyframes swoopin {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    
+  }
 }
 
 .about h2 {
@@ -177,7 +184,6 @@ html, body {
   border-bottom: 1px solid rgb(204, 197, 197);
 }
 .projects {
-  /* height: 77vh; */
   width: 60vw;
 }
 .projects div {
@@ -308,7 +314,7 @@ details {
 }
 
 #copyright {
-  margin-top: 50px;
+  margin-top: 100px;
   height: 10vh;
   color: white;
 }

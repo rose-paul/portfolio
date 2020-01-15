@@ -26,12 +26,12 @@ const About = () => {
    return (
      <div className="flex-wrapper">
        
-         <img id={phaseIn}
+         <img id="transform"
          src="about.jpg"
          alt=""
        />
        
-         <section className={phaseIn2}>
+         <section className="about">
          <h2>About Me</h2>
          <p>
            Skills: React, Redux, JavaScript, Ruby on Rails, Mapbox, SQL,
