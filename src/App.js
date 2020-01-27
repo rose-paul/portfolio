@@ -24,7 +24,7 @@ function App() {
         </Switch>
         {/* </div> */}
         {/* <Credits /> */}
-      <p id="copyright">© 2019 Paul Rose </p>
+      <p id="copyright">© 2020 Paul Rose </p>
       </div>
     </HashRouter>
   );
