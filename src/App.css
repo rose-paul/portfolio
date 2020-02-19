@@ -47,6 +47,7 @@ html, body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom right, #222429, rgb(63, 63, 63));
+  height: 100vh;
 }
 
 .navbar {
@@ -57,6 +58,7 @@ html, body {
     font-weight: bold;
     justify-content: space-evenly;
     border-bottom: 1px solid #212122;
+    align-items: center;
 }
 
 .navbar a {
