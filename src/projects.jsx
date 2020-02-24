@@ -29,6 +29,35 @@ const Projects = () => {
         <h2>Projects</h2>
         <div>
           <div id="single-project">
+            <div>
+              <a
+                href="https://gramcrackers.herokuapp.com/#/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt=""
+                  src="gramcrackers.png"
+                  onMouseEnter={mouseEnterAnim}
+                  onMouseLeave={mouseLeaveAnim}
+                />
+                <p>Gramcrackers</p>
+              </a>
+            </div>
+            <div>
+              <p>
+                Gramcrackers, an Instagram clone, is a social media app that
+                allows users to post photos and interact with other users
+                through following, comments and likes.
+                <ul>
+                  <li>Frontend: React / Redux</li>
+                  <li>Backend: Ruby on Rails</li>
+                  <li>DB and Storage: PostgreSQL, AWS</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div id="single-project">
             <a
               href="http://ride-mern.herokuapp.com/#/"
               target="_blank"
@@ -54,35 +83,6 @@ const Projects = () => {
                   <li>Frontend: React / Redux, Mapbox</li>
                   <li>Backend: Express.js</li>
                   <li>DB: MongoDB</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-          <div id="single-project">
-            <div>
-              <a
-                href="https://gramcrackers.herokuapp.com/#/login"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  alt=""
-                  src="gramcrackers.png"
-                  onMouseEnter={mouseEnterAnim}
-                  onMouseLeave={mouseLeaveAnim}
-                />
-                <p>Gramcrackers</p>
-              </a>
-            </div>
-            <div>
-              <p>
-                Gramcrackers, an Instagram clone, is a social media app that
-                allows users to post photos and interact with other users
-                through following, comments and likes.
-                <ul>
-                  <li>Frontend: React / Redux</li>
-                  <li>Backend: Ruby on Rails</li>
-                  <li>DB: PostgreSQL, AWS S3</li>
                 </ul>
               </p>
             </div>
