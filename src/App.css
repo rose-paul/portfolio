@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+@media (max-width: 1000px) {
+
+}
+
  /* .container {
     display: flex;
     height: 63%;
@@ -192,6 +196,7 @@ html, body {
 }
 .projects {
   width: 60vw;
+  height: 90vh;
 }
 .projects div {
   display: flex;
@@ -352,4 +357,77 @@ details {
 
 #single-project div:last-child {
       margin-left: 20%;
+}
+
+
+@media (max-width: 1000px) {
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    height: 90vh;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+
+  #transform {
+    height: 30%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about p {
+    width: 80vw;
+  }
+  .about article {
+    width: 80vw;
+  }
+
+  .projects {
+   width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects h2 {
+    width: 90px
+  }
+
+  #single-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #single-project > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects a {
+    margin-left: 0px;
+  }
+
+  #single-project div:last-child {
+    margin-left: 0px;
+  }
+
+  ul {
+      padding-left: 20px;
+  }
 }
