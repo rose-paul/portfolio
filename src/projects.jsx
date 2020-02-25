@@ -46,7 +46,7 @@ const Projects = () => {
             </div>
             <div>
               <p>
-                Gramcrackers, an Instagram clone, is a social media app that
+                Gramcrackers, an Instagram clone, is a social media web app that
                 allows users to post photos and interact with other users
                 through following, comments and likes.
                 <ul>
