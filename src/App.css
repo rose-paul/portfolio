@@ -387,7 +387,7 @@ details {
     flex-direction: column;
     align-items: center;
     height: auto;
-    justify-content: space-evenly;
+    padding: 20px 0px 20px 0px;
   }
 
   .about p {
