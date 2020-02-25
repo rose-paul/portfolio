@@ -387,7 +387,6 @@ details {
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 20px 0px 20px 0px;
   }
 
   .about p {
@@ -395,7 +394,7 @@ details {
   }
   .about article {
     width: 80vw;
-    margin-bottom: 10%;
+    padding: 20px 0px 20px 0px;
   }
 
   .projects {
