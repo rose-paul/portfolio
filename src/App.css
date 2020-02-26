@@ -401,6 +401,14 @@ details {
     display: none;
   }
 
+  .navbar a:last-child {
+    display: none;
+  }
+
+  .projects {
+    display: none;
+  }
+/* 
   .projects {
    width: 60vw;
     height: auto;
@@ -435,5 +443,5 @@ details {
 
   ul {
       padding-left: 20px;
-  }
+  } */
 }
