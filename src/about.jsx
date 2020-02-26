@@ -49,7 +49,7 @@ const About = () => {
             <article>
               Outside of programming, I love to travel. I was fortunate to explore
               a lot of places during my time in Moscow, both in the country and the
-              surrounding region. To the left is from the Krasnodar region on top
+              surrounding region. This photo is from the Krasnodar region on top
               of the mountain Indyuk.
 
               Feel free to reach out if you want to chat more!
