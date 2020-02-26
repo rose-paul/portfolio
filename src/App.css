@@ -397,6 +397,10 @@ details {
     padding: 20px 0px 20px 0px;
   }
 
+  .about article:nth-of-type(2){
+    display: none;
+  }
+
   .projects {
    width: 60vw;
     height: auto;

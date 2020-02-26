@@ -32,28 +32,28 @@ const About = () => {
        />
        
          <section className="about">
-         <h2>About Me</h2>
-         <p>
-           Skills: React, Redux, JavaScript, Node.js, Ruby on Rails, Mapbox, SQL,
-           PostgresSQL, MongoDB, AWS S3
-         </p>
-         <article>
-          I came into the tech realm as an engineer following my previous work teaching English at tech companies 
-           in Moscow.  I do fullstack web development and enjoy all aspects, from page design to system design.
-           My most recent endeavors have focused on engineering in vanilla JavaScript and React. 
-          </article>
-          <article>
-          I value teamwork, continual growth and mission-driven work. I love tackling substantive, real-world problems 
-          with simple, user-friendly solutions.
-         </article>
-         <article>
-           Outside of programming, I love to travel. I was fortunate to explore
-           a lot of places during my time in Moscow, both in the country and the
-           surrounding region. To the left is from the Krasnodar region on top
-           of the mountain Indyuk.
+            <h2>About Me</h2>
+            <p>
+              Skills: React, Redux, JavaScript, Node.js, Ruby on Rails, Mapbox, SQL,
+              PostgresSQL, MongoDB, AWS S3
+            </p>
+            <article>
+             I came into the tech realm as an engineer following my previous work teaching English at tech companies 
+              in Moscow.  I do fullstack web development and enjoy all aspects, from page design to system design.
+              My most recent endeavors have focused on engineering in vanilla JavaScript and React. 
+             </article>
+             <article className="hidden">
+             I value teamwork, continual growth and mission-driven work. I love tackling substantive, real-world problems 
+             with simple, user-friendly solutions.
+            </article>
+            <article>
+              Outside of programming, I love to travel. I was fortunate to explore
+              a lot of places during my time in Moscow, both in the country and the
+              surrounding region. To the left is from the Krasnodar region on top
+              of the mountain Indyuk.
 
-           Feel free to reach out if you want to chat more!
-         </article>
+              Feel free to reach out if you want to chat more!
+            </article>
        </section>
      </div>
    );
