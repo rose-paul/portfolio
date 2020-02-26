@@ -6,23 +6,27 @@ const Skills = () => (
         <div>
             <p>
                 <img
+                    alt="" src="icons8-javascript-480.png" />
+            </p>
+            <p>
+                <img
+                    alt="" src="python.png" />
+            </p>
+            <p>
+                <img
                     alt=""
                     id="react"
-                    src="https://colorlib.com/wp/wp-content/uploads/sites/2/react-dev-tools-logo.jpg"
+                    src="/kisspng-react-logo-redux-webpack-babel--5b7b7258694912.5465440215348168564313.png"
                 />
             </p>
             <p>
                 <img
                     alt=""
                     id="redux"
-                    src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-dark.png"
+                    src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-light.png"
                 />
             </p>
 
-            <p>
-                <img
-                    alt="" src="icons8-javascript-480.png" />
-            </p>
             <p>
                 <img
                     alt=""
@@ -39,15 +43,15 @@ const Skills = () => (
             </p>
             <p>
                 <img
-                    alt="" src="https://miro.medium.com/max/3332/0*ok6yuDnTx4o2PSFx.png" />
+                    alt="" src="mapbox-logo-white.png" />
             </p>
             <p>
                 <img
-                    alt="" src="http://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png" />
+                    id="postgres" alt="" src="postgresql.png" />
             </p>
             <p>
                 <img
-                    alt="" src="https://miro.medium.com/max/8334/1*Ta4qktHtO--RMUpnR08mBg.jpeg" />
+                    alt="" src="mongodb.png" />
             </p>
         </div>
     </section>

@@ -283,19 +283,16 @@ html, body {
   max-height: 160px;
   max-width: 400px;
 }
-#react {
-height: 160px;
-  width: 290px;
-}
-#redux {
-height: 160px;
-  width: 335px;
-}
 
 #rails {
 height: 160px;
   width: 160px;
-  margin-left: 100px;
+}
+
+#postgres {
+  max-height: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 #css {
