@@ -3,8 +3,9 @@ html, body {
   width: 100%;
 }
 
-@media (max-width: 1000px) {
-
+h2 {
+  font-weight: 300;
+    font-family: serif;
 }
 
  /* .container {
@@ -189,8 +190,6 @@ html, body {
 }
 
 .about h2 {
-  font-weight: 300;
-  font-family: serif;
   color: white;
   border-bottom: 1px solid rgb(204, 197, 197);
 }
@@ -398,7 +397,7 @@ details {
 }
 
 
-@media (max-width: 1000px) and (max-height: 1050px) {
+@media (max-width: 1000px) and (max-height: 1000px) {
   .App-header {
     display: flex;
     flex-direction: column;
@@ -439,13 +438,14 @@ details {
     display: none;
   }
 
-  .navbar a:last-child {
+  .navbar a:nth-child(3) {
     display: none;
   }
 
   .projects {
     display: none;
   }
+
 /* 
   .projects {
    width: 60vw;
@@ -489,5 +489,9 @@ details {
 
   #css {
     margin-left: 0px;
+  }
+
+  .skills h2 {
+    margin: 15px 48px 0px 40px;
   }
 }
