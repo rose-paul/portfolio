@@ -6,7 +6,9 @@ const Skills = () => {
     const [display, setDisplay] = useState("hide")
 
     useEffect( () => {
-        setTimeout(setDisplay("show"), 1000)
+        setTimeout(
+            () => setDisplay("show"), 
+            200)
     }, [])
 
     return (<section className="skills">
