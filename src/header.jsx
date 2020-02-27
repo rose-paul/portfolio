@@ -44,7 +44,7 @@ const Header = () => {
               <img alt="" src="003-email.png" />
             </a>
             
-            <a href="Paul_Rose_Resume.pdf" download="PaulRoseResume"><img src="cv.png" alt=""/></a>
+            <a href="Paul_Rose_Resume.pdf" download="PaulRose_Resume"><img src="cv.png" alt=""/></a>
           </div>
         </div>
       </header>
