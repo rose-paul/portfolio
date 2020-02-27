@@ -482,4 +482,12 @@ details {
   ul {
       padding-left: 20px;
   } */
+
+  .show {
+    max-width: 300px;
+  }
+
+  #css {
+    margin-left: 0px;
+  }
 }

@@ -33,10 +33,6 @@ const About = () => {
        
          <section className="about">
             <h2>About Me</h2>
-            <p>
-              Skills: React, Redux, JavaScript, Node.js, Ruby on Rails, Mapbox, SQL,
-              PostgresSQL, MongoDB, AWS S3
-            </p>
             <article>
              I came into the tech realm as an engineer following my previous work teaching English at tech companies 
               in Moscow.  I do fullstack web development and enjoy all aspects, from page design to system design.

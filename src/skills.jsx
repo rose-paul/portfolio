@@ -44,6 +44,13 @@ const Skills = () => {
             </p>
             <p>
                 <img className={display}
+                    style={{width: 300 + "px"}}
+                    alt=""
+                    src="nodepng.png"
+                />
+            </p>
+            <p>
+                <img className={display}
                     alt=""
                     id="css"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"
@@ -58,6 +65,7 @@ const Skills = () => {
             </p>
             <p>
                 <img className={display}
+                    style={{padding: 15 + "px"}}
                     alt="" src="mapbox-logo-white.png" />
             </p>
             <p>
