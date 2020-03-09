@@ -24,7 +24,6 @@ const Header = () => {
         <div>
           <h1>Paul Rose</h1>
           <h3>Software Engineer </h3>
-          <h3>React, Redux, Node.js, Rails </h3>
           <div className="header-links">
             <a
               href="https://github.com/rose-paul"
