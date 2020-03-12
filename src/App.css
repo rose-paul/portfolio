@@ -281,7 +281,7 @@ h2 {
 
 .hide {
   visibility: hidden;
-  max-height: 160px;
+  height: 100vh;
   max-width: 400px;
 }
 
@@ -483,9 +483,9 @@ details {
       padding-left: 20px;
   } */
 
-  .show {
+  /* .show {
     max-width: 300px;
-  }
+  } */
 
   #css {
     margin-left: 0px;
