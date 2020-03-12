@@ -1,29 +1,6 @@
 import React, { useState, useEffect }from 'react';
-import { CSSTransition } from 'react-transition-group';
-import cx from "classnames";
-import { clean } from 'gh-pages';
 
-const About = () => {
-
-  const [phaseIn, setPhase] = useState("hidden")
-  const [phaseIn2, setPhase2] = useState("hidden2")
-
-  // const cleanup = () => {
-  //   setPhase("hidden")
-  // }
-
-  useEffect(() => {
-      setTimeout(
-        setPhase("transform"), 2000,
-        setPhase2("about"), 500
-      )
-
-      // return () => {
-      //   cleanup()
-      // }
-  }, [])
-  
-   return (
+const About = () => (
      <div className="flex-wrapper">
        
          <img id="transform"
@@ -38,7 +15,7 @@ const About = () => {
               in Moscow.  I do fullstack web development and enjoy all aspects, from page design to system design.
               My most recent endeavors have focused on engineering in JavaScript, React and AWS. 
              </article>
-             <article className="hidden">
+             <article>
              I value teamwork, continual growth and purpose-driven work. I love tackling substantive, real-world problems 
              with simple, user-friendly solutions.
             </article>
@@ -53,6 +30,5 @@ const About = () => {
        </section>
      </div>
    );
-}
 
 export default About;
