@@ -31,6 +31,32 @@ const Projects = () => {
           <div id="single-project">
             <div>
               <a
+                href="https://charityfinderapp.herokuapp.com/#/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt=""
+                  src="gramcrackers.png"
+                  onMouseEnter={rotateWheel}
+                  onMouseLeave={mouseLeaveAnim}
+                />
+                <p>Charity Finder</p>
+              </a>
+            </div>
+            <div>
+              <p>
+                Charity Finder offers a simple, easy-to-use interface for finding charities based on location and interest area.
+                <ul>
+                  <li>Frontend: React (all hooks!), CSS, Webpack, Charity Navigator api</li>
+                  <li>Backend: Express.js</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div id="single-project">
+            <div>
+              <a
                 href="https://gramcrackers.herokuapp.com/#/login"
                 target="_blank"
                 rel="noopener noreferrer"
