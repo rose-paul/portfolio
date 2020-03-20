@@ -195,7 +195,7 @@ h2 {
 }
 .projects {
   width: 60vw;
-  height: 90vh;
+  min-height: 90vh;
 }
 .projects div {
   display: flex;
@@ -388,8 +388,12 @@ details {
   animation: 2s swoopleft;
 }
 
-#single-project:last-child {
+#single-project:nth-child(3) {
   animation: 3s swoopin;
+}
+
+#single-project:last-child {
+  animation: 4s swoopleft;
 }
 
 #single-project div:last-child {
