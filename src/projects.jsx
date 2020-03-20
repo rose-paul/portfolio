@@ -37,7 +37,7 @@ const Projects = () => {
               >
                 <img
                   alt=""
-                  src="gramcrackers.png"
+                  src="charity.png"
                   onMouseEnter={rotateWheel}
                   onMouseLeave={mouseLeaveAnim}
                 />
